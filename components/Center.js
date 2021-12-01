@@ -1,5 +1,5 @@
 import { ChevronDownIcon } from '@heroicons/react/outline';
-import { useSession } from 'next-auth/react';
+import { useSession, signOut } from 'next-auth/react';
 import { shuffle } from 'lodash';
 import { useEffect, useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
